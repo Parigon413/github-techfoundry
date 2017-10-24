@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="w3.css">
+	<style>
+
+</style>
+<title>
+	Joseph Molina
+</title>
+</head>
+<body>
+<div class="holder">
+	<div class="title">
+	</div>
+		
+	<div class="navi">
+		<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn w3-btn w3-round-xxlarge w3-blue">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html"><b><u>Home</u></b></a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">About</a>
+  </div>
+</div>
+		</div>
+	<div class="bodyc">
+		<center>
+		<p>
+		<p>
+		<p><h1><U>Contact Information</u></h1></p>
+		<Br>
+		<p><strong><h5>Joseph P. Molina </p>
+		<p> MolinaJoseph1990@Gmail.com</p>
+		<p> 105 Clarendon Ave, Chicopee MA 01013
+		<p> 413-504-9310</p>
+		<br></h5>
+		<br></strong>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>Thank you for visiting!</p>
+		</center>
+
+		<p></p>
+
+		
+		</div>
+<div class="footer">
+<center>&copy; Copyright Example 2017-2018 </center>
+	</div>
+</div>
+<Script>
+	function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}</script>
+	</body>
+	</html>

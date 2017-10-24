@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="w3.css">
+	<style>
+
+</style>
+<title>
+	Joseph Molina
+</title>
+</head>
+<body>
+<div class="holder">
+	<div class="title">
+	</div>
+		
+	<div class="navi">
+		<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn w3-btn w3-round-xxlarge w3-blue">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html"><b><u>Home</u></b></a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">About</a>
+  </div>
+</div>
+		</div>
+	<div class="body">
+		<p><h1>Welcome to my CSS & HTML Demonstration:.</h1></p>
+		<p> My name is Joseph Molina and I would like to welcome you to my demonstration for the CSS & HTML languages.
+on this site you will find some information about myself, aswell as a copy of my resume, and a page displaying the most common
+ways to contact me.</p>
+
+		<p>This design was put together to display functionality over design so please pardon the layout and styling choices.</p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		</div>
+<div class="footer">
+<center>&copy; Copyright Example 2017-2018 </center>
+	</div>
+</div>
+<Script>
+	function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}</script>
+	</body>
+	</html>
